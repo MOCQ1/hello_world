@@ -1,3 +1,8 @@
-# hello_world
-This is a hello_world program ,my first on gitHub
-// first change
+
+public class learning {
+
+	public static void main(String[] args) {
+		System.out.println("HELLO WORLD!");
+	}
+
+}
