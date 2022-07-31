@@ -1,8 +1,7 @@
 public class clash {
-	
-	public static void simplemessage()
-	{
-		System.out.println("THIS IS CLASH CLASS");
-	}
 
+public static void simplemessage(String name)
+{
+	System.out.println("HELLO CLASHER " + name);
+}
 }
