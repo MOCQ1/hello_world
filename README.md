@@ -1,7 +1,24 @@
-public class clash {
+import java.util.Scanner;
 
-public static void simplemessage(String name)
-{
-	System.out.println("HELLO CLASHER " + name);
+
+public class learning {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int avg=0;
+		int counter=0;
+		int total=0;
+		int grade=0;
+		
+		while(counter<10)
+		{
+			grade=input.nextInt();
+			total+=grade;
+			counter++;
+		}
+		avg=total/10;
+		System.out.printf("Your average is : %d",avg);
+		}
 }
-}
+
+
